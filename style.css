@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: auto;
+    font-family: cursive, 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #722e41;
+    overflow: hidden;
+}
+
+.banner {
+    height: 655px;
+    width: 100%;
+    background-image: url('10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 1 0 0;
+
+
+
+}
+
+.nav {
+    width: 92%;
+    height: auto;
+    background-color: rgba(60, 91, 92, 0.7);
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav h2 {
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+
+.menu {
+    width: 50%;
+    height: 65%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* box-shadow: 0 0 10px 0 rgba(138, 136, 141, 0.623); */
+    transition-duration: .4s;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #33101a;
+    font-weight: bolder;
+    transition-duration: .3s;
+
+
+
+}
+
+.menu :hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(130, 173, 144, 0.911);
+
+}
+
+.menu a:hover {
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(170, 136, 145);
+    box-shadow: 0 0 10px 0 rgba(57, 31, 100, 0.623);
+    /* box-shadow: 0 0 10px 0 rgba(130, 173, 144, 0.911); */
+}
+
+
+
+
+.text {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 33px;
+    align-items: left;
+    justify-content: center;
+}
+
+.text h1 {
+    color: rgb(141, 0, 35);
+    text-shadow: 2px rgba(97, 241, 345, 32.9);
+}
+
+#ankit {
+    color: rgb(455, 291, 313, 1);
+    position: relative;
+    color: #efefef;
+    text-shadow: 3px 5px 9px rgba(202, 0, 256, 6.9);
+}
+
+#weds {
+    color: rgb(72, 70, 146);
+    position: relative;
+    left: 45px;
+    font-size: 35px;
+    text-shadow:1px 1px  rgb(46, 182, 164);
+
+}
+
+#amrita {
+    color: rgb(455, 291, 313, 1);
+    text-shadow: 3px 5px 9px rgba(202, 0, 256, 6.9);
+    position: relative;
+    left: 75px;
+
+
+}
+
+.text .date {
+    color: #8a50e6;
+    background: linear-gradient(rgb(71, 8, 8), rgba(63, 1, 1, 0.1)100%, rgba(121, 0, 0, 0.1));
+    padding: 10px;
+    text-shadow: 2px 1px rgba(16, 243, 224, 0.9); 
+    margin: 5px;
+    border-radius:8px 20px 8px 20px;
+    transition-duration: .4s;
+    position: relative;
+    top: 5px;
+
+
+}
+
+.text .date:hover {
+    background: linear-gradient(rgb(202, 118, 118), rgba(165, 156, 156, 0.1)50%, rgba(54, 41, 41, 0.1));
+    cursor: pointer;
+    color: rgb(160, 25, 25);
+    text-shadow: 2px 1px rgba(240, 231, 231, 1);
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    background-color: #a89f9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.us {
+    width: 85%;
+    height: auto;
+    background-color: #15d6dda8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgb(161, 0, 0);
+
+}
+
+.us img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 3px solid #f15;
+    border-bottom: 3px solid #f15;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+
+}
+
+.section h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+    color:red;
+
+}
+
+.us1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.us1 span {
+    color: #fff;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(170, 9, 54);
+
+
+
+}
+
+.wedding {
+    width: 85%;
+    height: auto;
+    background-color: #dde0dace;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0 3px 10px 0 rgb(161, 0, 0);
+}
+
+.wedding img {
+    width: 50%;
+    height: 200px;
+    display: inline;
+    border: 1px solid #f15;
+    border-radius: 7px;
+    margin-bottom: 10px;
+
+
+}
+
+.wedding p {
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(39, 9, 9);
+
+}
+
+.venue {
+    width: 85%;
+    height: auto;
+    background-color: #dde0dace;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0 3px 10px 0 rgb(161, 0, 0);
+
+}
+
+.venue img {
+    width: 50%;
+    height: 200px;
+    display: inline;
+    border: 1px solid #f15;
+    border-radius: 7px;
+    margin-bottom: 10px;
+
+
+}
+
+.venue p {
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(39, 9, 9);
+
+}
+
+.bride {
+    width: 85%;
+    height: auto;
+    background-color: #ada4adce;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0 3px 10px 0 rgb(161, 0, 0);
+}
+
+.bride img {
+    width: 50%;
+    height: 200px;
+    display: inline;
+    border: 1px solid #f15;
+    border-radius: 7px;
+    margin-bottom: 10px;
+
+
+}
+
+.bride p {
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(39, 9, 9);
+
+}
